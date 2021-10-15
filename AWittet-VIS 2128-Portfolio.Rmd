@@ -36,38 +36,56 @@ Here are maps of Cambridge that display open space and lights. We selected these
 
 * Displaying multiple vector layers on the same map
 
+[![](thumbnails/illuminated-open-spac2.png)](https://github.com/awittet/portfolio/fullsize/illuminated-open-spac2.pdf){target="_blank"}
+
+[![](thumbnails/illuminated-open-spac.png)](https://github.com/awittet/portfolio/fullsize/illuminated-open-spac.pdf){target="_blank"}
 
 
-## Interactive Map
-This interactive map demonstrates the following skills: 
+## Visualizing Places
+These maps were geo-referenced from a map of Philadelphia from 1779. They document the spread of impervious surfaces within the modern city as well as the locations of stormwater outfalls. This georeferenced map demonstrates the following skills: 
+
+* Georeferencing a raster image
+
+[![](thumbnails/Philly-imperv-outfalls-Map.png)](https://github.com/awittet/portfolio/fullsize/Philly-imperv-outfalls-Map.pdf){target="_blank"}
+
+## Spatial Relationships
+This series of maps shows different relationships between bike share stations and bike crashes in Philadelphia. They demonstrate the following skills:
+
+* Calculating and displaying relationships among point and polygon layers based on distance
+* Aggregating point data to a layer of polygons
+
+[![](thumbnails/crash-by-neigh.png)](https://github.com/awittet/portfolio/fullsize/crash-by-neigh.pdf){target="_blank"}
+[![](thumbnails/crash-density.png)](https://github.com/awittet/portfolio/fullsize/crash-density.pdf){target="_blank"}
+
+## Routes and Networks / Isochrones
+These maps demonstrate travel time to nearest restaurants and cinemas in Providence, RI. It calculates travel time for walking and biking. The following skills are demonstrated:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+
+[![](thumbnails/isochr-cinema.png)](https://github.com/awittet/portfolio/fullsize/isochr-cinema.pdf){target="_blank"}
+[![](thumbnails/isochr-rest.png)](https://github.com/awittet/portfolio/fullsize/isochr-rest.pdf){target="_blank"}
+
+## Accessibility
+This map shows accessibility based on a distance-decay function of the walking time to the nearest restuarant in Providence, RI. It demonstrates the following skills:
+
+* Calculating and displaying accessibility, based on travel time
+* Displaying raster data on a map
+* Converting between raster layers and vector layers
+
+[![](thumbnails/cinema_access.png)](https://github.com/awittet/portfolio/fullsize/cinema_access.pdf){target="_blank"}
+[![](thumbnails/restaur_access.png)](https://github.com/awittet/portfolio/fullsize/restaur-access.pdf){target="_blank"}
+
+Rasters
+[![](thumbnails/restaur_rasterplot.png)](https://github.com/awittet/portfolio/fullsize/restaur_rasterplot.pdf){target="_blank"}
+[![](thumbnails/restaur_rastervector.png)](https://github.com/awittet/portfolio/fullsize/restaur-rastervector.pdf){target="_blank"}
+
+## Interactive Maps
+This map shows the unit vacancy rate for Detroit Michigan in context to the greater Wayne County. It includes the total units, units occupied, and units vacant per census block parcel. The pop-ups indicate the percent of vacancy per block. Skills demonstrated:
 
 * Displaying data on an interactive map
 
-[![](thumbnails/Boston_interactive.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/inter_black.html){target="_blank"}
+[![](thumbnails/vancany-detroit.png)](https://github.com/awittet/portfolio/fullsize/AWittet_Assignment6_Detroit-vacant-units.html){target="_blank"}
 
-## Clockboard Map
-This map demonstrates the following skills:
 
-* Aggregating point data to a layer of polygons
 
-[![](thumbnails/clockboard.jpg)](https://c-voulgaris.github.io/portfolio_examples/fullsize/clockboard.pdf){target="_blank"}
-
-# Maps of San Luis Obispo
-Here are two maps of San Luis Obispo, California. I might include some text here as well.
-
-## Isochrones
-This map shows isochrones based on transit travel times to the nearest school. It demonstrates the following skills:
-
-* Displaying multiple vector layers on the same map
-* Calculating and displaying accessibility, based on travel time
-
-[![](thumbnails/SLO_isochrone.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/SLO_schools.pdf){target="_blank"}
-
-## Accessibility
-This map shows accessibility based on a distance-decay function of the walking time to the nearest transit stop. It demonstrates the following skills:
-
-* Displaying multiple vector layers on the same map
-* Calculating and displaying accessibility, based on travel time
-* Displaying raster data on a map
-
-[![](thumbnails/SLO_raster.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/SLO_transit.pdf){target="_blank"}
