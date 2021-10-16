@@ -14,22 +14,20 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Your portfolio should demonstrate each of the following skills (not all of which are demonstrated in this example):
+This semester in VIS 2128 we explored multiple topics related to spatial analysis in R and R Studio. Over 7 weeks, we covered the modules listed below. The following work demonstrates the material of each module and its associated learnings to show the synthesis of skill-sets acquired throughout the course.
 
-* Displaying multiple vector layers on the same map
-* Calculating and displaying relationships among point and polygon layers based on distance
-* Aggregating point data to a layer of polygons
-* Calculating and displaying accessibility, based on travel time
-* Converting between raster layers and vector layers
-* Displaying raster data on a map
-* Georeferencing a raster image
-* Displaying data on an interactive map
+Modules Covered:
 
-This semester in VIS 2128 we explored multiple topics related to spatial analysis in R and R Studio. Over 7 weeks, we covered the following modules. The following work walks through each week's module and associated learnings to show the synthesis of multiple skill-sets acquired throughout the course.
+* Displaying Data
+* Visualizing Places
+* Spatial Relationships
+* Routes and Networks
+* Raster Data
+* Interactive Maps
 
 
 # Displaying Data
-Here are maps of Cambridge that display open space and lights. We selected these data layers to explore how accessable Cambridge's open spaces may be at night from a safety point of view. Skills used:
+These two maps compare open space and park lights in Cambridge, MA. We selected these data layers to explore how well-lit the city's open spaces and parks are and how that may contribute to a resident's sense of safety and accessibility to those spaces at night. Skills used:
 
 * Displaying multiple vector layers on the same map
 
@@ -38,24 +36,26 @@ Here are maps of Cambridge that display open space and lights. We selected these
 [![](thumbnails/illuminated-open-spac.png)](https://awittet.github.io/portfolio/fullsize/illuminated-open-spac.pdf){target="_blank"}
 
 
-## Visualizing Places
-These maps were geo-referenced from a map of Philadelphia from 1779. They document the spread of impervious surfaces within the modern city as well as the locations of stormwater outfalls. This georeferenced map demonstrates the following skills: 
+# Visualizing Places through Georeferencing
+This map was created by georeferencing a historic map of Philadelphia from 1779 in ArcGIS. It documents the extent of impervious surfaces within the modern city as well as the locations of municipal stormwater outfalls. It demonstrates the following skills: 
 
 * Georeferencing a raster image
+* Displaying multiple vector layers on the same map
 
 [![](thumbnails/Philly-imperv-outfalls-Map.png)](https://awittet.github.io/portfolio/fullsize/Philly-imperv-outfalls-Map.pdf){target="_blank"}
 
-## Spatial Relationships
-This series of maps shows different relationships between bike share stations and bike crashes in Philadelphia. They demonstrate the following skills:
+# Spatial Relationships
+This series of maps shows different relationships between bike share stations and bike crashes in Philadelphia. The first map aggregates the number of bike crashes in each Philadelphia neighborhood. The second map shows the density of bike crashes per square mile in each neighborhood. They demonstrate the following skills:
 
-* Calculating and displaying relationships among point and polygon layers based on distance
 * Aggregating point data to a layer of polygons
+* Calculating and displaying relationships among point and polygon layers based on distance
+
 
 [![](thumbnails/crashes-by-neigh.png)](https://awittet.github.io/portfolio/fullsize/crashes-by-neigh.pdf){target="_blank"}
 [![](thumbnails/crash-density.png)](https://awittet.github.io/portfolio/fullsize/crash-density.pdf){target="_blank"}
 
-## Routes and Networks / Isochrones
-These maps demonstrate travel time to nearest restaurants and cinemas in Providence, RI. It calculates travel time for walking and biking. The following skills are demonstrated:
+# Routes and Networks
+These maps demonstrate travel times to the nearest restaurants and cinemas in Providence, RI. Isochrones are used to show the area that can be reached within 5, 10, and 20 minute cutoff travel times. Both maps show travel time for biking or walking. Skills demonstrated:
 
 * Displaying multiple vector layers on the same map
 * Calculating and displaying accessibility, based on travel time
@@ -63,26 +63,33 @@ These maps demonstrate travel time to nearest restaurants and cinemas in Provide
 [![](thumbnails/isochr-cinema.png)](https://awittet.github.io/portfolio/fullsize/isochr-cinema.pdf){target="_blank"}
 [![](thumbnails/isochr-rest.png)](https://awittet.github.io/portfolio/fullsize/isochr-rest.pdf){target="_blank"}
 
-## Accessibility
-This map shows accessibility based on a distance-decay function of the walking time to the nearest restuarant in Providence, RI. It demonstrates the following skills:
+# Accessibility
+These two maps show accessibility based on an exponential distance-decay function of the walking time to the nearest cinema and restaurant in Providence, RI. Both maps were converted from a polygon layer to a raster layer. They demonstrate the following skills:
 
 * Calculating and displaying accessibility, based on travel time
 * Displaying raster data on a map
-* Converting between raster layers and vector layers
 
+### Cinema
 [![](thumbnails/cinema_access.png)](https://awittet.github.io/portfolio/fullsize/cinema_access.pdf){target="_blank"}
+
+### Restuarant 
 [![](thumbnails/restaur_access.png)](https://awittet.github.io/portfolio//fullsize/restaur-access.pdf){target="_blank"}
 
-Rasters
+# Converting from Raster to Vector Layers
+These two maps were converted into a vector layer from a raster layer. They also display accessibility based on an exponential distance-decay function of the walking time to the nearest restaurant in Providence, RI. They show the number of restaurants a pedestrian can access by walking from a specific point. Skills demonstrated:
+
+* Calculating and displaying accessibility, based on travel time
+* Converting between raster layers and vector layers
+
 [![](thumbnails/restaur_rasterplot.png)](https://awittet.github.io/portfolio/fullsize/restaur_rasterplot.pdf){target="_blank"}
 [![](thumbnails/restaur_rastervector.png)](https://awittet.github.io/portfolio/fullsize/restaur-rastervector.pdf){target="_blank"}
 
-## Interactive Maps
-This map shows the unit vacancy rate for Detroit Michigan in context to the greater Wayne County. It includes the total units, units occupied, and units vacant per census block parcel. The pop-ups indicate the percent of vacancy per block. Skills demonstrated:
+# Interactive Maps
+This map shows the unit vacancy rate for Detroit Michigan in context to the greater Wayne County. It includes the total units, units occupied, and units vacant per census block parcel. The pop-ups indicate the percent of vacancy per block. The following skills are demonstrated:
 
 * Displaying data on an interactive map
 
-[![](thumbnails/vancany-detroit.png)](https://awittet.github.io/portfolio/fullsize/AWittet_Assignment6_Detroit_vacant_units.html){target="_blank"}
+[![](thumbnails/vancany-detroit.png)](https://awittet.github.io/portfolio/fullsize/AWittet_Assignment6_Detroit_vacant.html){target="_blank"}
 
 
 
