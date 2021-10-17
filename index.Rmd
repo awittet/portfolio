@@ -37,7 +37,7 @@ These two maps compare open space and park lights in Cambridge, MA. We selected 
 
 
 # Visualizing Places through Georeferencing
-This map was created by georeferencing a historic map of Philadelphia from 1779 in ArcGIS. It documents the extent of impervious surfaces within the modern city as well as the locations of municipal stormwater outfalls. It demonstrates the following skills: 
+This map was created by georeferencing a historic map of Philadelphia from 1779 in ArcGIS. It documents the extent of impervious surfaces within the modern city as well as the locations of municipal stormwater outfalls (displayed as blue dots). It demonstrates the following skills: 
 
 * Georeferencing a raster image
 * Displaying multiple vector layers on the same map
@@ -45,7 +45,7 @@ This map was created by georeferencing a historic map of Philadelphia from 1779 
 [![](thumbnails/Philly-imperv-outfalls-Map.png)](https://awittet.github.io/portfolio/fullsize/Philly-imperv-outfalls-Map.pdf){target="_blank"}
 
 # Spatial Relationships
-This series of maps shows different relationships between bike share stations and bike crashes in Philadelphia. The first map aggregates the number of bike crashes in each Philadelphia neighborhood. The second map shows the density of bike crashes per square mile in each neighborhood. They demonstrate the following skills:
+This series of maps shows the relationship between bike crashes and different neighborhoods in Philadelphia. The first map aggregates the number of bike crashes in each Philadelphia neighborhood. The second map shows the density of bike crashes per square mile in each neighborhood. They demonstrate the following skills:
 
 * Aggregating point data to a layer of polygons
 * Calculating and displaying relationships among point and polygon layers based on distance
@@ -60,7 +60,10 @@ These maps demonstrate travel times to the nearest restaurants and cinemas in Pr
 * Displaying multiple vector layers on the same map
 * Calculating and displaying accessibility, based on travel time
 
+### Cinema
 [![](thumbnails/isochr-cinema.png)](https://awittet.github.io/portfolio/fullsize/isochr-cinema.pdf){target="_blank"}
+
+### Restaurants
 [![](thumbnails/isochr-rest.png)](https://awittet.github.io/portfolio/fullsize/isochr-rest.pdf){target="_blank"}
 
 # Accessibility
@@ -72,11 +75,11 @@ These two maps show accessibility based on an exponential distance-decay functio
 ### Cinema
 [![](thumbnails/cinema_access.png)](https://awittet.github.io/portfolio/fullsize/cinema_access.pdf){target="_blank"}
 
-### Restuarant 
+### Restuarants 
 [![](thumbnails/restaur_access.png)](https://awittet.github.io/portfolio//fullsize/restaur-access.pdf){target="_blank"}
 
 # Converting from Raster to Vector Layers
-These two maps were converted into a vector layer from a raster layer. They also display accessibility based on an exponential distance-decay function of the walking time to the nearest restaurant in Providence, RI. They show the number of restaurants a pedestrian can access by walking from a specific point. Skills demonstrated:
+These two maps were converted into a vector layer from a raster layer. They also display accessibility based on an exponential distance-decay function of the walking time to the nearest restaurant in Providence, RI. They show the number of restaurants a pedestrian can access by walking from a specific point. The second map displays this relationship using contours. Skills demonstrated:
 
 * Calculating and displaying accessibility, based on travel time
 * Converting between raster layers and vector layers
@@ -89,6 +92,8 @@ This map shows the unit vacancy rate for Detroit Michigan in context to the grea
 
 * Displaying data on an interactive map
 
+
+### Unit Vacancy in Detroit, Michigan 
 [![](thumbnails/vancany-detroit.png)](https://awittet.github.io/portfolio/fullsize/AWittet_Assignment6_Detroit_vacant.html){target="_blank"}
 
 
