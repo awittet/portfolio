@@ -1,7 +1,7 @@
 ---
 title: "VIS 2128 Portfolio"
 author: "Alanna Wittet"
-date: "10/14/2021"
+date: "Fall 2021"
 output: 
   html_document:
     theme: cerulean
@@ -27,7 +27,7 @@ Modules Covered:
 
 
 # Displaying Data
-These two maps compare open space and park lights in Cambridge, MA. We selected these data layers to explore how well-lit the city's open spaces and parks are and how that may contribute to a resident's sense of safety and accessibility to those spaces at night. Skills used:
+These two maps compare open space and park lights in Cambridge, MA. My group and I selected these data layers to explore how well-lit the city's open spaces and parks are and how that may contribute to a resident's sense of safety and accessibility to those spaces at night. Skills used:
 
 * Displaying multiple vector layers on the same map
 
@@ -55,15 +55,15 @@ This series of maps shows the relationship between bike crashes and different ne
 [![](thumbnails/crash-density.png)](https://awittet.github.io/portfolio/fullsize/crash-density.pdf){target="_blank"}
 
 # Routes and Networks
-These maps demonstrate travel times to the nearest restaurants and cinemas in Providence, RI. Isochrones are used to show the area that can be reached within 5, 10, and 20 minute cutoff travel times. Both maps show travel time for biking or walking. Skills demonstrated:
+These maps demonstrate travel times to the nearest restaurant and cinema in Providence, RI. Isochrones are used to show the area that can be reached within 5, 10, and 20 minute cutoff travel times. Both maps show travel time for biking or walking. Skills demonstrated:
 
 * Displaying multiple vector layers on the same map
 * Calculating and displaying accessibility, based on travel time
 
-### Cinema
+#### Cinema
 [![](thumbnails/isochr-cinema.png)](https://awittet.github.io/portfolio/fullsize/isochr-cinema.pdf){target="_blank"}
 
-### Restaurants
+#### Restaurants
 [![](thumbnails/isochr-rest.png)](https://awittet.github.io/portfolio/fullsize/isochr-rest.pdf){target="_blank"}
 
 # Accessibility
@@ -72,19 +72,24 @@ These two maps show accessibility based on an exponential distance-decay functio
 * Calculating and displaying accessibility, based on travel time
 * Displaying raster data on a map
 
-### Cinema
+#### Cinema
 [![](thumbnails/cinema_access.png)](https://awittet.github.io/portfolio/fullsize/cinema_access.pdf){target="_blank"}
 
-### Restuarants 
+#### Restuarants 
 [![](thumbnails/restaur_access.png)](https://awittet.github.io/portfolio//fullsize/restaur-access.pdf){target="_blank"}
 
 # Converting from Raster to Vector Layers
-These two maps were converted into a vector layer from a raster layer. They also display accessibility based on an exponential distance-decay function of the walking time to the nearest restaurant in Providence, RI. They show the number of restaurants a pedestrian can access by walking from a specific point. The second map displays this relationship using contours. Skills demonstrated:
+These maps demonstrate a raster layer converted to a vector layer. The the previous set of maps, they display accessibility based on an exponential distance-decay function of the walking time to the nearest restaurant in Providence, RI. They show the number of restaurants a pedestrian can access by walking from a specific point. The second map displays this relationship using contours. Skills demonstrated:
 
 * Calculating and displaying accessibility, based on travel time
+* Displaying raster data on a map
 * Converting between raster layers and vector layers
 
+
+#### Raster Layer
 [![](thumbnails/restaur_rasterplot.png)](https://awittet.github.io/portfolio/fullsize/restaur_rasterplot.pdf){target="_blank"}
+
+#### Vector Layer
 [![](thumbnails/restaur_rastervector.png)](https://awittet.github.io/portfolio/fullsize/restaur-rastervector.pdf){target="_blank"}
 
 # Interactive Maps
