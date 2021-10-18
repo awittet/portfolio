@@ -61,7 +61,7 @@ These maps demonstrate travel times to the nearest restaurant and cinema in Prov
 * Calculating and displaying accessibility, based on travel time
 
 #### Cinema
-[![](thumbnails/isochr-cinema.png)](https://awittet.github.io/portfolio/fullsize/isochr-cinema.pdf){target="_blank"}
+[![](thumbnails/isochr-cinema.png)](https://awittet.github.io/portfolio/fullsize/isochr-cinema2.pdf){target="_blank"}
 
 #### Restaurants
 [![](thumbnails/isochr-rest.png)](https://awittet.github.io/portfolio/fullsize/isochr-rest.pdf){target="_blank"}
@@ -76,7 +76,7 @@ These two maps show accessibility based on an exponential distance-decay functio
 [![](thumbnails/cinema_access.png)](https://awittet.github.io/portfolio/fullsize/cinema_access.pdf){target="_blank"}
 
 #### Restuarants 
-[![](thumbnails/restaur_access.png)](https://awittet.github.io/portfolio//fullsize/restaur-access.pdf){target="_blank"}
+[![](thumbnails/restaur_access.png)](https://awittet.github.io/portfolio//fullsize/restaur_access.pdf){target="_blank"}
 
 # Converting from Raster to Vector Layers
 These maps demonstrate a raster layer converted to a vector layer. The the previous set of maps, they display accessibility based on an exponential distance-decay function of the walking time to the nearest restaurant in Providence, RI. They show the number of restaurants a pedestrian can access by walking from a specific point. The second map displays this relationship using contours. Skills demonstrated:
@@ -90,7 +90,7 @@ These maps demonstrate a raster layer converted to a vector layer. The the previ
 [![](thumbnails/restaur_rasterplot.png)](https://awittet.github.io/portfolio/fullsize/restaur_rasterplot.pdf){target="_blank"}
 
 #### Vector Layer
-[![](thumbnails/restaur_rastervector.png)](https://awittet.github.io/portfolio/fullsize/restaur-rastervector.pdf){target="_blank"}
+[![](thumbnails/restaur_rastervector.png)](https://awittet.github.io/portfolio/fullsize/restaur_rastervector.pdf){target="_blank"}
 
 # Interactive Maps
 This map shows the unit vacancy rate for Detroit Michigan in context to the greater Wayne County. It includes the total units, units occupied, and units vacant per census block parcel. The pop-ups indicate the percent of vacancy per block. The following skills are demonstrated:
@@ -99,7 +99,7 @@ This map shows the unit vacancy rate for Detroit Michigan in context to the grea
 
 
 ### Unit Vacancy in Detroit, Michigan 
-[![](thumbnails/vancany-detroit.png)](https://awittet.github.io/portfolio/fullsize/AWittet_Assignment6_Detroit_vacant.html){target="_blank"}
+[![](thumbnails/vancany-detroit.png)](https://awittet.github.io/portfolio/fullsize/AWittet_Assignment6_Detroit_vacant_units.html){target="_blank"}
 
 
 
